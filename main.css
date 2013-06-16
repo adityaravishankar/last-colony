@@ -1,0 +1,234 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote: before, blockquote: after,q: before, q: after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End of Reset CSS */
+
+body {
+	background-color: black;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height: 16px;
+	margin-top: 10px;
+}
+
+.mainlayoutdiv{
+
+}
+
+.leftpanel {
+	float: left;
+	width: 350px;
+}
+
+h2 {
+	font-size:28px;
+	color:yellow;
+	color:rgb(250,220,120);
+	/*text-decoration: italic;*/
+	text-shadow: 2px 3px 2px rgb(250,100,100);
+	padding: 5px;
+	margin:15px;
+	text-align: center;
+}
+
+h2 span {
+	font-size: 14px;
+	text-shadow:none;
+}
+
+.fb-like-big {
+	margin:0 15px;
+}
+
+
+.paypal-donate {
+	position:relative;
+	top:-60px;
+	left:230px;
+}
+
+.middlepanel {
+	float:left;
+}
+
+.middlepanel p, .middlepanel u {
+	padding: 5px;
+	text-align: justify;
+}
+
+.boring {
+	color:gray;
+	line-height: 14px;
+	font-size: 11px;
+}
+
+
+
+.rightpanel {
+	float: left;
+	width: 350px;
+}
+
+.leftpanel p,.rightpanel p {
+	margin: 15px 15px;
+	margin-right:20px;
+	text-align: justify;
+}
+
+.askfordonations{
+	margin: 0;
+	padding:0;
+	text-align: center;
+}
+.donation {
+	color:rgb(70,170,0);
+	line-height: 14px;
+	font-size: 12px;
+}
+
+.askfordonations p,.askfordonations div{
+	margin: 5px 15px;
+	padding:0;
+}
+
+.booksmallad {
+	background-color:rgb(5,10,65);
+	padding:10px;
+	border-radius:5px;
+	color:orange;
+	font-size: 13px;
+	line-height: 20px;
+	text-align: center;
+}
+
+.booklargead {
+	text-align:center;
+	background:rgb(0,0,10);
+	margin:0 10px 10px 10px;
+	padding:5px;
+	border-radius: 5px;
+	border:1px dashed brown;
+}
+
+.facebook-page {
+	/*background:rgb(3,3,3);*/
+	/*border-radius: 5px;*/
+}
+
+
+.sharebuttons {
+	margin-top:3px;
+}
+
+.sharebutton {
+	float:left;
+	margin: 0 7px;
+	padding:0;
+	/*padding: 3px 0 0 0;*/
+}
+
+.booklargead .sharebutton {
+	margin: 0 0 0 20px;
+	padding:0 ;
+}
+
+.booklargead .booksmallad  {
+	margin: 10px 0px;
+}
+
+.frootwarsimage,.lastcolonyimage {
+	width:90px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+.booklargead .frootwarsimage{
+	float:right;
+	margin:0 10px 10px 10px;
+}
+
+.booklargead .lastcolonyimage{
+	float:left;
+	margin:0 10px 10px 10px;
+}
+
+.checkoutnow {
+	display:block;
+	clear:both;
+	color:red;
+	font-size:14px;
+	padding:15px;
+}
+
+h2 a {
+	color:gold;
+}
+
+a {
+	color:brown;
+}
+
+.booksmallad a {
+	color:brown;
+}
+
+.gamecontrols{
+	border:1px solid gray;
+	padding:5px;
+	margin:10px 0;
+	border-radius: 10px;
+}
+footer {
+	clear: both;
+}
+.dark-background{
+	border-radius:3px;
+	background-color: rgb(41,41,41);
+}
+.fb-comments iframe, .fb-comments, .fb-comments span { width:99% !important; }
